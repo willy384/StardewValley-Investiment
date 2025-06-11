@@ -4,12 +4,12 @@
 int dinheiro,venda,compra,lucro,custo,quantidade,inventario(0);
 
 int main(){
-
-    std::cout << "Dinheiro ";
+    std::cout << "Preencha com suas informacoes!";
+    std::cout << "Seu Dinheiro:";
     std::cin >> dinheiro;
-    std::cout << "Custo ";
+    std::cout << "Custo Por Semente:";
     std::cin >> custo;
-    std::cout << "Lucro ";
+    std::cout << "Lucro Bruto:";
     std::cin >> lucro;
 
     quantidade=(dinheiro/custo);
